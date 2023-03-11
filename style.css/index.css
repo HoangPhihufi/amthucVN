@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    max-width: 1200px;
+    background-color: #000;
+    background-image: url('https://cdn.pixabay.com/photo/2018/10/08/10/21/agriculture-3732476__480.jpg');
+    background-size: cover;
+    background-position: center;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1{
+    color: #346e75;
+    font-size: 3rem;
+
+}
+p{
+    color: #346e75;
+    font-size: 15px;
+    line-height: 15px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+a:hover{
+    color: #3dabc2;
+}
+
+/* HEADER */
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 160px;
+    height: 70px;
+    box-shadow: #000;
+    margin-left: 50px;
+}
+.navbar_2{
+    display: flex;
+}
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+.navbar_2 .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;  
+    display: none;  
+}
+
+/* CONTAINER */
+.row{
+    display: flex;
+    height: 85%;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.col{
+    flex-basis: 60%;
+}
+.col1{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+button{
+    width: 160px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    float: left;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 25px;
+    background-position: center;
+    background-size: cover;
+}
+.card1{
+    background-image: url(/img/banh-mi.png);
+}
+.card2{
+    background-image: url(/img/bun-bo-hue.jpeg);
+}
+.card3{
+    background-image: url(/img/tamdao.jpg);
+}
+.card4{
+    background-image: url(/img/hoian.jpg);
+}
+.card h5{
+    display: block;
+    position: relative;
+    bottom: -220px;
+    padding: 7px 5px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+}
